@@ -1,3 +1,4 @@
+import { ContactSection } from "./components/ContactSection";
 import { HeroSection } from "./components/HeroSection";
 import { NavBar } from "./components/NavBar";
 import { ServicesOffer } from "./components/ServiceOffer";
@@ -15,6 +16,7 @@ export default function Home() {
       </div>
       <WorkCarousel/>
       <ServicesOffer/>
+      <ContactSection/>
         
     </>
   );
