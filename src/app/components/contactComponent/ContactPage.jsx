@@ -5,13 +5,12 @@ export default function ContactPage() {
     return (
         <main className="bg-white py-20 px-6 sm:px-10 lg:px-20 text-gray-800">
             <section className="max-w-3xl mx-auto text-center">
-                <h1 className="text-4xl font-extrabold mb-6">Contattaci</h1>
+                <h1 className="text-4xl font-extrabold mb-6">Get in Touch</h1>
                 <p className="text-lg text-gray-600 mb-10">
-                    Sei pronto a portare la tua idea sulla blockchain? Siamo felici di ascoltarti.
-                    Scrivici o connettiti con noi tramite i canali qui sotto.
+                    Ready to bring your idea on-chain? We’d love to hear from you. Drop us a message or connect via the platforms below.
                 </p>
 
-                {/* Contatti */}
+                {/* Contacts */}
                 <div className="space-y-6 text-center">
                     <div className="flex justify-center items-center space-x-3">
                         <FaEnvelope className="text-indigo-600 text-xl" />
@@ -30,20 +29,20 @@ export default function ContactPage() {
                         </a>
                     </div>
                 </div>
+
                 <div className="text-center mt-10">
                     <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                        Per aiutarci a valutare il tuo progetto più velocemente, includi queste informazioni nella tua mail:
+                        To help us better understand your project, please include these details in your message:
                     </h2>
 
                     <ul className="inline-block text-left text-gray-600 space-y-2 text-base">
-                        <li>📌 <strong>Idea:</strong> di cosa si tratta in breve?</li>
-                        <li>🧾 <strong>Descrizione:</strong> qualche dettaglio funzionale/tecnico</li>
-                        <li>💰 <strong>Budget stimato:</strong> range indicativo (es. 3k–10k)</li>
-                        <li>🕒 <strong>Tempistiche:</strong> deadline o roadmap prevista</li>
-                        <li>🏢 <strong>Campo di applicazione:</strong> DeFi, NFT, tool interno, ecc.</li>
+                        <li>📌 <strong>Idea:</strong> A brief summary of your concept</li>
+                        <li>🧾 <strong>Description:</strong> Key functionalities or technical elements</li>
+                        <li>💰 <strong>Estimated Budget:</strong> An indicative range (e.g., $3k–$10k)</li>
+                        <li>🕒 <strong>Timeline:</strong> Deadlines or planned milestones</li>
+                        <li>🏢 <strong>Use Case:</strong> DeFi, NFT, business tools, etc.</li>
                     </ul>
                 </div>
-
             </section>
         </main>
     );

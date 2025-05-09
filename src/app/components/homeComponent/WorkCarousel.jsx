@@ -11,14 +11,34 @@ import Image from 'next/image';
 const works = [
     {
         title: 'Iron Badger Brotherhood',
-        description: `DeFi ecosystem for the Badger Brotherhood, composed of 4 financial protocols:
-    Iron Pact, Iron Forge, Iron Rise, Iron Fall.
-    And Badger Labs working on future innovation of the ecosystem.`,
+        description: `A comprehensive DeFi ecosystem composed of four integrated financial protocols: Iron Pact, Iron Forge, Iron Rise, and Iron Fall. Built and maintained by Badger Labs to drive innovation in decentralized finance.`,
         image: logo,
         link: 'https://www.iron-badger-brotherhood.xyz/',
+        stack: ['Solidity', 'Hardhat', 'React.js', 'Tailwind', 'IPFS', 'SKALE', 'OpenZeppelin', 'Ethers.js', 'Wagmi', 'RainbowKit'],
     },
-    
+    {
+        title: 'LIQ Protocol',
+        description: `An advanced DeFi staking and yield strategy protocol built on Yearn V2 contracts, deployed on Mantle. It focuses on optimizing liquidity allocation and returns through automated lending strategies.`,
+        image: logo,
+        link: 'https://github.com/LELUK911/Liq-Vault-sol',
+        stack: ['Solidity', 'Foundry', 'Mantle', 'OpenZeppelin', 'YearnV2'],
+    },
+    {
+        title: 'ERC20 Token Generator',
+        description: `An open-source tool to easily generate ERC20 tokens with customizable features such as minting, burning, and capped supply. Designed to accelerate tokenization for DeFi projects and early-stage startups.`,
+        image: logo,
+        link: 'https://github.com/LELUK911/GeneratorTokenERC20',
+        stack: ['Solidity', 'Truffle', 'OpenZeppelin', 'Moralis'],
+    },
+    {
+        title: 'StikiEco',
+        description: `A blockchain-based NFT battle game built on ERC-1155, where characters evolve and compete. Battle outcomes are determined by stats and Chainlink-powered randomness, mixing skill with chance.`,
+        image: logo,
+        link: 'https://github.com/LELUK911/StikiEco',
+        stack: ['Solidity', 'Truffle', 'ERC-1155', 'OpenZeppelin', 'Chainlink', 'Moralis'],
+    },
 ];
+
 
 export const WorkCarousel = () => {
     return (
@@ -55,6 +75,14 @@ export const WorkCarousel = () => {
                                 <div className="text-center">
                                     <h3 className="text-3xl font-bold text-gray-900 mb-4">{work.title}</h3>
                                     <p className="text-gray-900 text-lg leading-relaxed mb-6 text-justify">{work.description}</p>
+                                    <h4 className="text-xl font-bold text-gray-900 mb-4">Stak use</h4>
+                                    <div className="flex flex-wrap justify-center gap-2 mt-4 text-xs text-gray-600 mb-4">
+                                        {work.stack?.map((tech, i) => (
+                                            <span key={i} className="px-2 py-1 bg-gray-200 rounded-full">
+                                                {tech}
+                                            </span>
+                                        ))}
+                                    </div>
                                     {work.link && (
                                         <a
                                             href={work.link}
@@ -66,6 +94,7 @@ export const WorkCarousel = () => {
                                         </a>
                                     )}
                                 </div>
+
                             </div>
                         </SwiperSlide>
                     ))}

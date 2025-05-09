@@ -7,35 +7,42 @@ import {
     BanknotesIcon,
     RocketLaunchIcon,
     Cog6ToothIcon,
+    CodeBracketIcon
 } from '@heroicons/react/24/outline';
 
 const services = [
     {
-        title: 'Sviluppo Smart Contract',
-        description: 'Progettiamo e implementiamo smart contract sicuri, ottimizzati e audit-ready su Ethereum, Polygon, BSC e altri network.',
-        icon: DocumentTextIcon,
+      title: 'Smart Contract Development',
+      description: 'We design and implement secure, optimized, and audit-ready smart contracts on Ethereum, Polygon, BSC, and other networks.',
+      icon: DocumentTextIcon,
     },
     {
-        title: 'Creazione di piattaforme DeFi',
-        description: 'Dallo staking al lending, sviluppiamo soluzioni DeFi su misura per ogni esigenza di business.',
-        icon: BanknotesIcon,
+      title: 'Custom DeFi Platforms',
+      description: 'From staking to lending, we develop tailored DeFi solutions designed to fit any business model or technical requirement.',
+      icon: BanknotesIcon,
     },
     {
-        title: 'Consulenza Blockchain per Aziende',
-        description: 'Supportiamo startup e imprese nell\'integrare tecnologie blockchain con strategie scalabili e sostenibili.',
-        icon: Cog6ToothIcon,
+      title: 'Enterprise Blockchain Consulting',
+      description: 'We help startups and companies integrate blockchain into their strategy with scalable and future-proof solutions.',
+      icon: Cog6ToothIcon,
     },
     {
-        title: 'Audit e Sicurezza Smart Contract',
-        description: 'Analisi di sicurezza su contratti esistenti o nuovi, con report dettagliati e supporto al fixing delle vulnerabilità.',
-        icon: ShieldCheckIcon,
+      title: 'Smart Contract Review & Debugging',
+      description: 'We perform functional reviews of smart contracts, help detect common issues, and assist with optimization and bug fixing before audits.',
+      icon: ShieldCheckIcon,
     },
     {
-        title: 'Deploy su Blockchain Private e Publiche',
-        description: 'Ti aiutiamo a creare la tua blockchain privata o a deployare su Ethereum, BSC, Arbitrum, Avalanche e altri L1.',
-        icon: RocketLaunchIcon,
+      title: 'Mainnet Deployments & Network Setup',
+      description: 'We handle smart contract deployments on Ethereum, BSC, Arbitrum, and other chains — with verification and explorer integration support.',
+      icon: RocketLaunchIcon,
     },
-];
+    {
+      title: 'Frontend Development for Web3 Apps',
+      description: 'We build responsive, high-performance user interfaces for dApps — with wallet integration and seamless contract interaction.',
+      icon: CodeBracketIcon,
+    },
+  ];
+  
 
 export const ServicesOffer = () => {
     return (
