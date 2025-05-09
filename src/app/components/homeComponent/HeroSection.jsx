@@ -1,0 +1,37 @@
+import Image from 'next/image'
+import React from 'react'
+import logo from '../../../assets/logo.png'
+
+export const HeroSection = () => {
+    return (
+        <section className="bg-gradient-to-br from-sky-100 to-indigo-100 py-20 px-6 md:px-12">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+
+                {/* Left: Text */}
+                <div className="text-center md:text-left max-w-xl">
+                    <span className="text-sm uppercase tracking-wide text-indigo-600 font-semibold">🔐 Blockchain su misura</span>
+                    <h1 className="mt-4 text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                        Costruiamo il futuro della <span className="text-indigo-600">finanza decentralizzata</span>
+                    </h1>
+                    <p className="mt-6 text-lg text-gray-700">
+                        Soluzioni DeFi e blockchain personalizzate per aziende e privati. Sicurezza, innovazione e scalabilità in un unico partner tecnologico.
+                    </p>
+                    <div className="mt-8 flex justify-center md:justify-start gap-4">
+                        <a href="#contatti" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-md font-semibold">
+                            Contattaci
+                        </a>
+                        <a href="#servizi" className="text-indigo-600 font-semibold underline">
+                            Scopri di più
+                        </a>
+                    </div>
+                </div>
+
+                {/* Right: Image */}
+                <div className="w-full max-w-md">
+                    <Image src={logo} alt="Logo" className="hidden lg:block lg:mt-0 lg:w-full lg:max-w-lg lg:rounded-lg lg:shadow-lg lg:object-cover lg:object-center" width={500} height={500} priority={true} />
+                </div>
+
+            </div>
+        </section>
+    );
+}
