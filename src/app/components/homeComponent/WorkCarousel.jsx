@@ -5,35 +5,39 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import logo from '../../../assets/logo.png';
+import stiki from '../../../assets/stiki.png';
+import erc20Log from '../../../assets/erc20generator.png';
+import liq from '../../../assets/liq.png';
+import ironLogo from '../../../assets/IronLogo.png';
+
 import Image from 'next/image';
 
 const works = [
     {
         title: 'Iron Badger Brotherhood',
         description: `A comprehensive DeFi ecosystem composed of four integrated financial protocols: Iron Pact, Iron Forge, Iron Rise, and Iron Fall. Built and maintained by Badger Labs to drive innovation in decentralized finance.`,
-        image: logo,
+        image: ironLogo,
         link: 'https://www.iron-badger-brotherhood.xyz/',
         stack: ['Solidity', 'Hardhat', 'React.js', 'Tailwind', 'IPFS', 'SKALE', 'OpenZeppelin', 'Ethers.js', 'Wagmi', 'RainbowKit'],
     },
     {
         title: 'LIQ Protocol',
         description: `An advanced DeFi staking and yield strategy protocol built on Yearn V2 contracts, deployed on Mantle. It focuses on optimizing liquidity allocation and returns through automated lending strategies.`,
-        image: logo,
-        link: 'https://github.com/LELUK911/Liq-Vault-sol',
+        image: liq,
+        link: 'https://stakeliq.xyz/',
         stack: ['Solidity', 'Foundry', 'Mantle', 'OpenZeppelin', 'YearnV2'],
     },
     {
         title: 'ERC20 Token Generator',
         description: `An open-source tool to easily generate ERC20 tokens with customizable features such as minting, burning, and capped supply. Designed to accelerate tokenization for DeFi projects and early-stage startups.`,
-        image: logo,
+        image: erc20Log,
         link: 'https://github.com/LELUK911/GeneratorTokenERC20',
         stack: ['Solidity', 'Truffle', 'OpenZeppelin', 'Moralis'],
     },
     {
         title: 'StikiEco',
         description: `A blockchain-based NFT battle game built on ERC-1155, where characters evolve and compete. Battle outcomes are determined by stats and Chainlink-powered randomness, mixing skill with chance.`,
-        image: logo,
+        image: stiki,
         link: 'https://github.com/LELUK911/StikiEco',
         stack: ['Solidity', 'Truffle', 'ERC-1155', 'OpenZeppelin', 'Chainlink', 'Moralis'],
     },

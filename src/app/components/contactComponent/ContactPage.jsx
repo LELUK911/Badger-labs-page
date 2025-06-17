@@ -14,18 +14,15 @@ export default function ContactPage() {
                 <div className="space-y-6 text-center">
                     <div className="flex justify-center items-center space-x-3">
                         <FaEnvelope className="text-indigo-600 text-xl" />
-                        <span className="text-gray-700 text-lg">info@badgerlabs.xyz</span>
+                        <span className="text-gray-700 text-lg">luciano.dinoia91@proton.me</span>
                     </div>
 
                     <div className="flex justify-center gap-6 text-gray-600 text-xl mt-6">
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-indigo-600 transition">
+                        <a href="https://www.linkedin.com/in/luciano-dinoia/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-indigo-600 transition">
                             <FaLinkedin />
                         </a>
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-indigo-600 transition">
+                        <a href="https://github.com/LELUK911" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-indigo-600 transition">
                             <FaGithub />
-                        </a>
-                        <a href="https://t.me/username" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="hover:text-indigo-600 transition">
-                            <FaTelegramPlane />
                         </a>
                     </div>
                 </div>

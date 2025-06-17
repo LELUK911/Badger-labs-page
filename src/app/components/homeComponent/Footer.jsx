@@ -15,9 +15,9 @@ export const Footer = () => {
                 </p>
 
                 <p className="text-xs text-gray-500 text-center mt-8">
-                    Badger Labs OÜ – Registry Code: 12345678 – Tartu mnt 80, 10112 Tallinn, Estonia
+                    SusuLuk OÜ – Registry Code: 17263028 – Narva mnt 5, 10117 Tallinn, Estonia
                     <br />
-                    Email: info@yourcompany.com
+                    Email: luciano.dinoia91@proton.me
                 </p>
 
                 <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
@@ -28,7 +28,7 @@ export const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#contatti" className="text-gray-700 hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 transition">
+                        <a href="contact" className="text-gray-700 hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 transition">
                             Contact
                         </a>
                     </li>

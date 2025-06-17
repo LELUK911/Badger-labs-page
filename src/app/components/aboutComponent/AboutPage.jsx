@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import imgteam from '../../../assets/team.png'
 
 export default function AboutPage() {
     return (
@@ -40,7 +41,7 @@ export default function AboutPage() {
                 {/* Image */}
                 <div className="lg:w-1/2">
                     <Image
-                        src="/assets/about-section.jpg"
+                        src={imgteam}
                         alt="Blockchain team"
                         width={700}
                         height={400}

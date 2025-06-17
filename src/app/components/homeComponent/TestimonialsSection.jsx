@@ -6,9 +6,9 @@ import Image from 'next/image';
 const testimonials = [
     {
         name: 'Luciano L.',
-        role: 'Founder @ Badger Labs',
+        role: 'Founder @ SusuLuk OÜ',
         photo: '/images/luciano.jpg',
-        quote: `I created Badger Labs to bring real, technical value into the blockchain space — not just hype. Our work on Iron Badger proves how independent builders can launch robust DeFi ecosystems with clean UX and solid infrastructure. I believe in code, community, and long-term vision.`,
+        quote: `I created SusuLuk OÜ to bring real, technical value into the blockchain space — not just hype. Our work on Iron Badger Brotherhood proves how independent builders can launch robust DeFi ecosystems with clean UX and solid infrastructure. I believe in code, community, and long-term vision.`,
     }
     ,
     {
@@ -32,7 +32,7 @@ const TestimonialsSection = () => {
         <section className="bg-blue-100 py-16">
             <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
                 <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-12">
-                    Cosa dicono i nostri clienti
+                    What our customers say
                 </h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {testimonials.map((testimonial, index) => (

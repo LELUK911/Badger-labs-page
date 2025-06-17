@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import logo from '../../../assets/logo.png'
+import buildfut from '../../../assets/buildFut.png'
+
 
 export const HeroSection = () => {
     return (
@@ -19,7 +20,7 @@ export const HeroSection = () => {
                         From DeFi protocols to enterprise-grade applications, we design and build blockchain solutions that solve real-world problems. A trusted tech partner for startups, companies, and visionaries.
                     </p>
                     <div className="mt-8 flex justify-center md:justify-start gap-4">
-                        <a href="#contact" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-md font-semibold">
+                        <a href="contact" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-md font-semibold">
                             Contact Us
                         </a>
                     </div>
@@ -27,7 +28,7 @@ export const HeroSection = () => {
                 
                 {/* Right: Image */}
                 <div className="w-full max-w-md">
-                    <Image src={logo} alt="Logo" className="hidden lg:block lg:mt-0 lg:w-full lg:max-w-lg lg:rounded-lg lg:shadow-lg lg:object-cover lg:object-center" width={500} height={500} priority={true} />
+                    <Image src={buildfut} alt="Logo" className="hidden lg:block lg:mt-0 lg:w-full lg:max-w-lg lg:rounded-lg lg:shadow-lg lg:object-cover lg:object-center" width={800} height={800} priority={true} />
                 </div>
 
             </div>

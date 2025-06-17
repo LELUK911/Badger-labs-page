@@ -49,7 +49,7 @@ export const ServicesOffer = () => {
         <section className="bg-gray-100 py-20">
             <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
                 <h2 className="text-4xl font-extrabold text-gray-900 mb-14 text-center">
-                    I nostri servizi
+                    The our services
                 </h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
