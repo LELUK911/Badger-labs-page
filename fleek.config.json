@@ -1,0 +1,9 @@
+{
+  "sites": [
+    {
+      "slug": "acoustic-eve-sparse",
+      "distDir": ".fleek",
+      "buildCommand": "npm install && fleek-next build"
+    }
+  ]
+}
